@@ -63,6 +63,8 @@ npm run dev `# running the server for development`
 
 npm start `# running the server for production`
 ```
+If you want to use environment variable just edit the `.env.template` file and fill it with your environment variable.
+
 ## The MIT License
 Copyright 2017 - Septian A Tama (tamatamvan)
 

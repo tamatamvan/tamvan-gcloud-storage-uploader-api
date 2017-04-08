@@ -21,6 +21,7 @@ The view engine is not available by default, as this scaffolding is focused for 
     "body-parser": "~1.15.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.2.0",
+    "dotenv": "^4.0.0",
     "express": "~4.13.4",
     "morgan": "~1.7.0"
   }

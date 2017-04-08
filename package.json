@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "public": true,
+  "keywords": "express, scaffolding, es6, generator, rest, api",
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www"

@@ -1,14 +1,20 @@
 'use strict'
-const express = require('express');
-const path = require('path');
-const logger = require('morgan');
-const cookieParser = require('cookie-parser');
-const bodyParser = require('body-parser');
+//All Dependencies
+const express = require('express'),
+      path = require('path'),
+      logger = require('morgan'),
+      cookieParser = require('cookie-parser'),
+      bodyParser = require('body-parser'),
 
-const routes = require('./routes/index');
-const users = require('./routes/users');
+      //All Route Files
+      routes = require('./routes/index'),
+      users = require('./routes/users'),
 
-const app = express();
+      //Express Instance
+      app = express();
+
+//load environment variables with dotenv
+require('dotenv').config()
 
 app.use(logger('dev'));
 app.use(bodyParser.json());

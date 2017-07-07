@@ -10,7 +10,9 @@ const storage = Storage({
 });
 const bucket = storage.bucket(CLOUD_BUCKET);
 
-
+const getPublicUrl = (filename) => {
+  return `https://storage.googleapis.com/${CLOUD_BUCKET}/${filename}`;
+}
 
 const Multer = require('multer'),
       multer = Multer({

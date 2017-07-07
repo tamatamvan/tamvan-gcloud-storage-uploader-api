@@ -51,3 +51,9 @@ const Multer = require('multer'),
           fileSize: 5 * 1024 * 1024
         }
       })
+
+module.exports = {
+  getPublicUrl,
+  sendUploadToGCS,
+  multer
+}

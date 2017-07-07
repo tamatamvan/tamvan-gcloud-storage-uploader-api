@@ -1,12 +1,12 @@
 'use strict'
-const express = require('express');
-const router = express.Router();
-const images = require('../helpers/images')
+const express = require('express'),
+      router = express.Router(),
+      images = require('../helpers/images')
 
 /* GET main endpoint. */
 router.get('/', (req, res, next) => {
-  res.send({ message: 'Welcome Buddy!' });
-});
+  res.send({ message: 'Welcome Buddy!' })
+})
 router.post('/upload',
   images.multer.single('image'), 
   images.sendUploadToGCS,
@@ -18,4 +18,4 @@ router.post('/upload',
     })
   })
 
-module.exports = router;
+module.exports = router

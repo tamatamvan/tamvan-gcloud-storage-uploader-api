@@ -7,7 +7,12 @@ const images = require('../helpers/images')
 router.get('/', (req, res, next) => {
   res.send({ message: 'Welcome Buddy!' });
 });
-router.post('/upload', 
+router.post('/upload',
+  (req, res, next) => {
+    console.log('f : ', req.file)
+    console.log('b : ', req.body)
+    next()
+  },
   images.multer.single('image'), 
   images.sendUploadToGCS,
   (req, res) => {

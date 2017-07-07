@@ -1,5 +1,5 @@
 {
-  "name": "tamvan-gcp-storage uploader",
+  "name": "tamvan-gcp-storage-uploader",
   "version": "0.1.0",
   "private": false,
   "public": true,

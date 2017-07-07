@@ -16,6 +16,7 @@ const express = require('express'),
 //load environment variables with dotenv
 require('dotenv').config()
 
+app.use(require('cors')())
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

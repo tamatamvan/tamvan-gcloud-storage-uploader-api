@@ -1,9 +1,9 @@
 {
-  "name": "tamvan-express-es6",
+  "name": "tamvan-gcp-storage uploader",
   "version": "0.1.0",
   "private": false,
   "public": true,
-  "keywords": "express, scaffolding, es6, generator, rest, api",
+  "keywords": "google, cloud, platform, storage, file, upload",
   "scripts": {
     "start": "node ./bin/www",
     "dev": "nodemon ./bin/www"

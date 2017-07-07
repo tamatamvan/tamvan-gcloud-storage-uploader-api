@@ -9,7 +9,6 @@
     "dev": "nodemon ./bin/www"
   },
   "dependencies": {
-    "@google-cloud/datastore": "^1.0.3",
     "@google-cloud/storage": "^1.2.0",
     "body-parser": "~1.15.1",
     "cookie-parser": "~1.4.3",

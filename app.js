@@ -1,13 +1,13 @@
 'use strict'
 //All Dependencies
-const express = require('express'),
-      logger = require('morgan'),
+const express = require('express')
+const logger = require('morgan')
 
       //All Route Files
-      routes = require('./routes/index'),
+const routes = require('./routes/index')
 
       //Express Instance
-      app = express()
+const app = express()
 
 //load environment variables with dotenv
 require('dotenv').config()
